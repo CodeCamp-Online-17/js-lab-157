@@ -1,15 +1,9 @@
-# js-lab-156
-### Lab 156 ES6: result2
+# js-lab-157
+### Lab 157 ES6: result3
 ผลลัพธ์ในบรรทัดที่มี * มีค่าเป็นอะไรและเพราะอะไร
 
 ```JavaScript
-let [raindrops, whiskers, ...aFewOfMyFavoriteThings] = [
-  'Raindrops on roses',
-  'whiskers on kittens',
-  'Bright copper kettles',
-  'warm woolen mittens',
-];
-console.log(raindrops); // *
-console.log(whiskers); // **
-console.log(aFewOfMyFavoriteThings); // ***
+let numbers = [10, 20, 30];
+[numbers[1], numbers[2]] = [numbers[2], numbers[1]];
+console.log(numbers); // *
 ```
